@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import Dashboard from './Components/Dashboard'
 
 function App() {
 
   return (
     <>
-      <p className='text-red-600'>Hello</p>
+      <Dashboard/>
     </>
   )
 }
